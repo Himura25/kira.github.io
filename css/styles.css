@@ -1,0 +1,73 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Sigmar+One&family=Staatliches&display=swap');
+
+body{
+
+	background-image: url("https://images7.alphacoders.com/713/thumb-1920-713678.jpg");
+	background-repeat: no-repeat;
+	background-size: auto;
+}
+
+
+.main, .hidden, #result
+{
+	width: 80%;
+	max-width: 1000px;
+
+	margin:  15px auto;
+
+}
+
+.main{
+
+	font-size: 40px;
+	font-family: 'Sigmar One', cursive;
+	text-align: center;
+	color: #d0d0d0;
+
+}
+
+.button{
+
+	width: 200px;
+	height: 90px;
+
+	border-radius: 20px;
+	cursor: pointer;
+	border-style: none;
+
+	font-size: 25px;
+	font-family: 'Sigmar One', cursive;
+
+	background-color: transparent;
+	color: #d0d0d0;
+
+	border-style: dotted;
+	border-width: 2px;
+	visibility: visible;
+}
+
+.button:hover{
+
+	width: 250px;
+	height: 150px;
+	font-size: 40px;
+}
+
+#result{
+
+	margin-top: 10px;
+	border-style: dotted;
+	color: #d0d0d0;
+	font-size: 40px;
+	font-family: "sans-serif;", cursive;
+	padding: 10px;
+	text-align: justify;
+	background-color: rgba(106, 90, 205, .7);
+	border-radius: 50px;
+
+}
+
+.hidden, #result{
+	visibility: hidden;
+}
